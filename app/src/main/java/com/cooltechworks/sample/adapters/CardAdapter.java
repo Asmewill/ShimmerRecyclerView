@@ -53,6 +53,14 @@ public class CardAdapter extends RecyclerView.Adapter<ItemHolder> {
         mCards = cards;
     }
 
+    public List<ItemCard> getmCards() {
+        return mCards;
+    }
+
+    public void setmCards(List<ItemCard> mCards) {
+        this.mCards = mCards;
+    }
+
     public void setType(int type) {
         this.mType = type;
     }
